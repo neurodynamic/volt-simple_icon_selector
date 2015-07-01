@@ -1,6 +1,7 @@
 # Volt::SimpleIconSelector
 
-TODO: Write a gem description
+A selecter, with icons, that is simple.
+
 
 ## Installation
 
@@ -40,7 +41,7 @@ options = [
 ```
 Uses [Font Awesome icons](http://fontawesome.io/icons/).
 
-```selected_option``` corresponds with the name of one of the options.
+```selected_option``` must correspond with the *name* of one of the options.
 
 
 ## Contributing

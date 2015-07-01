@@ -1,0 +1,35 @@
+.selector {
+  text-align: center;
+  margin: auto;
+
+  .option {
+    display: inline-block;
+    padding: 12px;
+    margin: 10px;
+    font-size: 16px;
+    min-width: 100px;
+    color: black;
+
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -khtml-border-radius: 24px;
+    border-radius: 24px;
+
+    &.selected {
+      background-color: rgba(0,0,0,0.25);
+    }
+
+    &:focus {
+      text-decoration: none;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(0,0,0,0.15);
+
+      &.selected {
+        background-color: rgba(0,0,0,0.35);
+      }
+    }
+  }
+}

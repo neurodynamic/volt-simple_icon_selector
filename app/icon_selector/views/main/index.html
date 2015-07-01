@@ -1,0 +1,15 @@
+<div class="selector">
+
+  {{ options.each do |option| }}
+  
+    <a href="#" e-click="select(option)" class="option {{selected_class(option)}}">
+
+      <i class='fa fa-3x fa-{{ option[:icon] }}'></i>
+      <div class="name">
+        {{ option[:name] }}
+      </a>
+    </div>
+
+  {{ end }}
+
+</div>

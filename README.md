@@ -20,7 +20,8 @@ Or install it yourself as:
 
 ```<:icon_selector options="{{options}}" selected="{{selected_option}}" />```
 
-options must be an array of hashes with name and icon keys, like so:
+```options``` must be an array of hashes with name and icon keys, like so:
+
 ```
 options = [
   {
@@ -39,7 +40,7 @@ options = [
 ```
 Uses [Font Awesome icons](http://fontawesome.io/icons/).
 
-Selected option corresponds with the name of one of the options.
+```selected_option``` corresponds with the name of one of the options.
 
 
 ## Contributing

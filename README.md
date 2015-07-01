@@ -1,6 +1,6 @@
 # Volt::SimpleIconSelector
 
-A selecter, with icons, that is simple.
+A selector, with icons, that is simple.
 
 
 ## Installation
